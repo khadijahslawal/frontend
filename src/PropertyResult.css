@@ -1,0 +1,38 @@
+.propertyResult {
+  display: flex;
+  position: relative;
+  margin: 20px;
+  padding: 20px;
+  border-bottom: 1px solid lightgray;
+  cursor: pointer;
+}
+
+.propertyResult:hover {
+  opacity: 0.8;
+}
+
+.propertyResult > img {
+  height: 200px;
+  width: 350px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.propertyResult__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 20px;
+}
+
+.propertyResult__infoTop {
+  width: 40vw;
+}
+
+.propertyResult__country {
+  display: flex;
+}
+.propertyResult__infoBottom {
+  display: flex;
+  justify-content: space-between;
+}
